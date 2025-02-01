@@ -1,0 +1,269 @@
+/*intro*/
+#container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  #header{
+    height: 550px;
+    background-color: rgb(205, 193, 255);
+    position: relative;
+    width: 100%;
+}
+#coding{
+    height: 100%;
+    width: 100%;
+}
+#introtext1{
+    position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#introtext2{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#introtext2:hover{
+    color: rgb(184, 33, 50);
+}
+
+#introtext3{
+    position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#biog{
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(255, 232, 147);
+}
+
+#colledge{
+    border-radius: 20px;
+    background-color: rgb(218, 210, 255);
+}
+
+/*bio*/
+#mis{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table{
+    color: rgb(230, 12, 186);
+}
+
+.text{
+    color: blue;
+}
+/*hobby section*/
+#hobsection{
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(119, 178, 84);
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+#hobrow{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 5px solid black;
+    border-radius: 50px;
+
+}
+
+#hobrow:hover{
+    background-color: rgb(154, 203, 208);
+}
+
+#hobgrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 10px;
+}
+/*scope section*/
+#scopesection{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(121, 215, 190);
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+#scoperow{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 5px solid black;
+    border-radius: 50px;
+
+}
+#scoperow:hover{
+    background-color: rgb(154, 203, 208);
+}
+
+#scopegrid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 10px;
+}
+
+/*navbar*/
+#navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(166, 241, 224);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#navbarlink{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: start;
+    margin-left: 20px;
+}
+
+#navbarlink li{
+    list-style-type: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+}
+#navbarlink a{
+    text-decoration: none;
+}
+
+#navbarlink p{
+    color: black;
+}
+
+#navbarlink p:hover{
+    color: red;
+}
+
+#navbarlink li:hover{
+    background-color: rgb(255, 214, 90);
+    border-radius: 10px;
+    color: red;
+}
+#gear {
+   width: 70px;
+   height: 70px;
+}
+#component1 {
+    display: flex;
+    align-items: center;
+}
+#component2 {
+    display: flex;
+    align-items: center;
+    margin-left: 170px;
+}
+#component3 {
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+}
+#btnlogin {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 120px;
+    margin-right: 20px;
+}
+
+/*intro*/
+
+
+#intropic {
+    height: 25%;
+    width: 25%; 
+    border-radius: 20px; 
+    padding-left: 250px;   
+}
+#intro {
+    display: flex;
+    align-items: center;
+}
+/*timetable*/
+#timetable{
+    background-color: yellow;
+    
+    border-radius: 20px;
+    text-align: center;
+}
+/*foot*/
+#contact{
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(250, 218, 122);
+}
+#foot{
+    margin-right: auto;
+    margin-left: auto;
+    background-color: silver;
+    margin-top: 20px;
+    
+}
+
+#footta{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*feedback*/
+#feed{
+    border-radius: 20px;
+    background-color: yellow;
+    width: 500px;
+}
+#button {
+    background-color: rgb(123, 211, 234);
+    border-radius: 20px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+/*fonts*/
+
+.oswald-in {
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  
+.asap-o {
+    font-family: "Asap", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  .permanent-marker-regular {
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
